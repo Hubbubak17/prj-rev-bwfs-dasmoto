@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+  text-align: center;
+}
+h3,h4 {
+  font-family: helvetica;
+  font-weight:lighter;
+}
+.brush {
+  font-family: helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: mediumspringgreen;
+}
+.frame {
+  font-family: helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: lightcoral;
+}
+.paint {
+  font-family: helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: skyblue;
+}
+h1 {
+  text-align: center;
+  color: khaki;
+  font-size: 75px;
+  font-family: arial;
+}
+.container {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  margin: 200px auto;
+}
+.container img {
+  width: 600px;
+  height: 400px;
+}
+.text {
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
